@@ -1,0 +1,277 @@
+:root {
+	--basic-black: #000000;
+	--logo-black: #231F20;
+	--accent-orange: #F7941E;
+	--section-bg-grey: #F1F1F2;
+	--card-bg-grey: #FAFAFA;
+	--basic-white: #FFFFFF;
+
+}
+
+@font-face {
+	font-family: 'Gilroy'; 
+    font-weight: 400;
+	src: local('Gilroy'),
+		url('../assets/fonts/Gilroy-Regular.ttf'); 
+}
+
+@font-face {
+	font-family: 'Gilroy'; 
+    font-weight: 600;
+	src: local('Gilroy'),
+		url('../assets/fonts/Gilroy-SemiBold.ttf'); 
+}
+
+@font-face {
+	font-family: 'Gilroy'; 
+    font-weight: 700;
+	src: local('Gilroy'),
+		url('../assets/fonts/Gilroy-Bold.ttf'); 
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.page-body {
+	margin: 0 auto;
+	max-width: 1440px;
+	font-family: "Gilroy", "Arial", sans-serif;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.logo {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 18px;
+	line-height: 2.15;
+	text-decoration: none;
+	transition: .4s;
+}
+
+.button {
+	width: 200px;
+	height: 60px;
+	font-size: 18px;
+	line-height: 1.5;
+	color: var(--basic-white);
+	text-transform: uppercase;
+	background-color: var(--accent-orange);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .6s;
+}
+
+.button:hover {
+	color: var(--accent-orange);
+	background-color: transparent;
+	border: 1px solid var(--accent-orange);
+}
+
+.button_bg_transparent-light {
+	background-color: transparent;
+	color: var(--accent-orange);
+	border: 1px solid var(--accent-orange);
+}
+
+.button_bg_transparent-light:hover {
+	color: var(--basic-white);
+	background-color: var(--accent-orange);
+}
+
+.two-column-section {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--section-bg-grey);
+}
+
+.section-title {
+	margin-bottom: 23px;
+	font-size: 32px;
+	/* line-height: 1.2; */
+	font-weight: 400;
+}
+
+.section-subtitle {
+	margin-bottom: 64px;
+	font-size: 18px;
+	line-height: 1.36;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 80px;
+	padding-right: 34px;
+	min-height: 116px;
+}
+
+.logo_place_header {
+	color: var(--logo-black);
+}
+
+.logo_place_header:hover {
+	color: var(--accent-orange);
+}
+
+.menu-list {
+	display: flex;
+	justify-content: space-between;
+	gap: 31px;
+	list-style: none;
+}
+
+.menu__link {
+	font-size: 18px;
+	line-height: 1.2;
+	color: var(--basic-black);
+	transition: .4s;
+}
+
+.menu__link:hover {
+	text-decoration: underline;
+	color: var(--accent-orange);
+}
+
+.button_size_s {
+	width: 150px;
+	height: 44px;
+}
+
+.hero {
+	min-height: 700px;
+	background-image: url("../assets/img/hero-bg.jpg");
+	background-size: 719px 700px;
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+
+.two-column-section_img-place_right {
+	padding-top: 154px;
+	padding-left: 162px;
+}
+
+.hero__title {
+	max-width: 433px;
+	font-size: 56px;
+	line-height: 1.22;
+	font-weight: 600;
+}
+
+.hero__subtitle {
+	padding-bottom: 54px;
+	max-width: 422px;
+	font-size: 20px;
+	line-height: 1.4;
+}
+
+.feature {
+	align-items: flex-end;
+	padding-top: 164px;
+	padding-right: 166px;
+	min-height: 600px;
+	background-image: url("../assets/img/feature-bg.jpg");
+	background-size: 721px 600px;
+	background-repeat: no-repeat;
+	background-position: top left;
+}
+
+.feature__text {
+	max-width: 441px;
+}
+
+.feature__title {
+	margin-bottom: 23px;
+	font-size: 32px;
+	line-height: 45px;
+	font-weight: 400;
+}
+
+.feature__text {
+	margin-bottom: 35px;
+	font-size: 20px;
+	line-height: 1.4;
+	text-align: justify;
+}
+
+.occasions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 96px;
+}
+
+/* .occasions__title {
+	margin-bottom: 23px;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.occasions__subtitle {
+	margin-bottom: 64px;
+	font-size: 18px;
+	line-height: 1.36;
+} */
+
+.occasions__list {
+	display: flex;
+	justify-content: space-between;
+	gap: 30px;
+	list-style: none;
+}
+
+.occasions__item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-left: 24px;
+	padding-bottom: 24px;
+	width: 270px;
+	height: 436px;
+	background-color: var(--card-bg-grey);
+	transition: .6s;
+}
+
+.occasions__item:hover {
+	background-color: var(--basic-white);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
+
+.occasions__img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+}
+
+.occasions__name {
+	margin-bottom: 74px;
+	font-size: 20px;
+	line-height: 1.2;
+}
+
+.occasions__link {
+	font-family: "Roboto";
+	font-size: 14px;
+	line-height: 1.36;
+	transition: .6s;
+}
+
+
+.occasions__link:hover {
+	color:var(--accent-orange);
+}
+
+
+
+
+
