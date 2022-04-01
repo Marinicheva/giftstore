@@ -33,6 +33,8 @@
 @import url(../blocks/blog/blog.css);
 @import url(../blocks/blog/__cards/blog__cards.css);
 @import url(../blocks/main-card/main-card.css);
+@import url(../blocks/main-card/__content/main-card__content.css);
 @import url(../blocks/main-card/__img/main-card__img.css);
 @import url(../blocks/main-card/__author/main-card__author.css);
 @import url(../blocks/main-card/__text/main-card__text.css);
+@import url(../blocks/blog/__card-link/_place/blog__card-link_place_main-card.css);

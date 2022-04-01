@@ -1,8 +1,11 @@
 .blog__cards {
-	display: flex;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	gap: 30px;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 370px 290px;
+	row-gap: 40px;
+	column-gap: 30px;
+	margin: 0 auto;
 	padding-top: 71px;
+	max-width: 80%;
 	list-style: none;
 }

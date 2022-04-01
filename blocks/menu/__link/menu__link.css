@@ -2,10 +2,4 @@
 	font-size: 18px;
 	line-height: 1.2;
 	color: var(--basic-black);
-	transition: .4s;
-}
-
-.menu__link:hover {
-	text-decoration: underline;
-	color: var(--accent-orange);
 }

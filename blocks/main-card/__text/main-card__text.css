@@ -1,3 +1,4 @@
 .main-card__text {
-	color: var(--basic-white)
+	color: var(--basic-white);
+	font-size: 48px;
 }

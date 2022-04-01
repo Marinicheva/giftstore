@@ -1,4 +1,10 @@
 .link {
 	color: inherit;
 	text-decoration: none;
+	transition: .4s;
+}
+
+.link:hover {
+	text-decoration: underline;
+	color: var(--accent-orange);
 }

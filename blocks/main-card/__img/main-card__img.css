@@ -1,6 +1,6 @@
 .main-card__img {
-	position: absolute;
+	/* position: absolute;
 	top: 0;
-	left: 0;
-	object-fit: contain;
+	left: 0; */
+	object-fit: cover;
 }

@@ -1,11 +1,13 @@
 .main-card {
-	position: relative;
+	grid-column: 1/-1;;
+	/* position: relative; */
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	padding-top: 63px;
-	padding-left: 478px;
-	min-width: 100%;
+	gap: 78px;
+	/* flex-direction: column;
+	justify-content: space-between;
+	align-items: baseline; */
+
+	/* padding-left: 478px; */
 	min-height: 370px;
 	background-color: var(--basic-black);
 }
