@@ -4,7 +4,7 @@
 }
 
 .button_bg_transparent-dark:hover {
-	color: var(--basic-white);
+	color: var(--accent-orange);
 	background-color: var(--logo-black);
 
 }

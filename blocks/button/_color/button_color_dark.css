@@ -4,7 +4,7 @@
 }
 
 .button_color_dark:hover {
-	color: var(--logo-black);
+	color: var(--basic-white);
 	background-color: transparent;
-	border: 1px solid var(--logo-black);
+	border: 1px solid var(--basic-white);
 }
