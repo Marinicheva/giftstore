@@ -1,0 +1,10 @@
+.button_bg_transparent-light {
+	background-color: transparent;
+	color: var(--accent-orange);
+	border: 1px solid var(--accent-orange);
+}
+
+.button_bg_transparent-light:hover {
+	color: var(--basic-white);
+	background-color: var(--accent-orange);
+}

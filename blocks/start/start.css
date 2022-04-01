@@ -1,0 +1,12 @@
+.start {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0 235px;
+	min-height: 240px;
+	background-color: var(--accent-orange);
+}
+
+/* .start__column {
+	width: 50%;
+} */

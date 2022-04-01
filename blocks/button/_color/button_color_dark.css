@@ -1,0 +1,10 @@
+.button_color_dark {
+	color: var(--basic-white);
+	background-color: var(--logo-black);
+}
+
+.button_color_dark:hover {
+	color: var(--logo-black);
+	background-color: transparent;
+	border: 1px solid var(--logo-black);
+}

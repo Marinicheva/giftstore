@@ -1,0 +1,5 @@
+.two-column {
+	display: flex;
+	flex-direction: column;
+	background-color: var(--section-bg-grey);
+}

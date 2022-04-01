@@ -1,0 +1,7 @@
+.logo_place_header {
+	color: var(--logo-black);
+}
+
+.logo_place_header:hover {
+	color: var(--accent-orange);
+}

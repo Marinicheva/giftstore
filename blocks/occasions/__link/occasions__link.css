@@ -1,0 +1,10 @@
+.occasions__link {
+	font-family: "Roboto";
+	font-size: 14px;
+	line-height: 1.36;
+	transition: .6s;
+}
+
+.occasions__link:hover {
+	color:var(--accent-orange);
+}

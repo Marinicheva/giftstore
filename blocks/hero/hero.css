@@ -1,0 +1,7 @@
+.hero {
+	min-height: 700px;
+	background-image: url("../assets/img/hero-bg.jpg");
+	background-size: 719px 700px;
+	background-repeat: no-repeat;
+	background-position: top right;
+}

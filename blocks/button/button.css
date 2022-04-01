@@ -1,0 +1,19 @@
+.button {
+	width: 200px;
+	height: 60px;
+	font-size: 18px;
+	line-height: 1.5;
+	color: var(--basic-white);
+	text-transform: uppercase;
+	background-color: var(--accent-orange);
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: .6s;
+}
+
+.button:hover {
+	color: var(--accent-orange);
+	background-color: transparent;
+	border: 1px solid var(--accent-orange);
+}

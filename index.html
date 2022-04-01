@@ -6,17 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GiftStore | Learning project</title>
     <link type="image/png" sizes="96x96" rel="icon" href="assets/icons/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="pages/index.css">
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo logo_place_header">logo</a>
         <nav class="menu menu_place_header">
-            <ul class="menu-list">
+            <ul class="menu">
                 <li class="menu__item"><a href="#" class="link menu__link">Home</a></li>
                 <li class="menu__item"><a href="#" class="link menu__link">About Us</a></li>
                 <li class="menu__item"><a href="#" class="link menu__link">Services</a></li>
@@ -27,13 +23,13 @@
     </header>
 
     <main class="content">
-        <section class="hero two-column-section two-column-section_img-place_right">
+        <section class="hero two-column two-column_img-place_right">
             <h1 class="hero__title">Find a gift for your wife or girlfriend</h1>
             <p class="hero__subtitle">Struggling to find a gift for your wife or girlfriend? No problem!</p>
             <button class="button">Find gift now</button>
         </section>
 
-        <section class="feature two-column-section two-column-section_img-place_left">
+        <section class="feature two-column-section two-column_img-place_left">
             <div class="feature__text">
                 <h3 class="feature__title">How we work</h3>
                 <p class="feature__text">We’ve actually already asked hundreds of women what they want, and made a database with the results. All you have to do is take our short survey that only takes seconds, and our proprietary algorithm will match you with a few perfect gift options.</p>
@@ -65,6 +61,41 @@
                     <img src="assets/img/card-4-img.jpg" alt="Cristmas tree" class="occasions__img">
                     <p class="occasions__name">Christmas</p>
                     <a href="#" class="occasions__link link">See More ›</a>
+                </li>
+            </ul>
+        </section>
+        <section class="start">
+            <div class="start__column">
+                <h3 class="start__title">Ready to get started?</h3>
+                <p class="start__text">Sign up or contact us</p>
+            </div>
+            
+            <div class="start__column">
+                <button class="button button_color_dark">Find gift now</button>
+                <button class="button button_bg_transparent-dark">how it works</button>               
+            </div>
+        </section>
+
+        <section class="blog">
+            <h2 class="section-title occasions__title">Our Best Blogs Ever</h2>
+            <p class="section-subtitle occasions__subtitle">“Try our blog to find the best tips and tricks to select your gift”</p>
+
+            <ul class="blog__cards">
+                <li class="blog__card main-card">
+                    <img src="assets/img/blog-img.jpg" alt="Merried couple in a wood" class="main-card__img">
+                    <p class="main-card__author">Mr. John Doe</p>
+                    <p class="main-card__text">The best way to wish your wife</p>
+                    <a href="#" class="blog__card-link blog__card-link_place_main-card">Read More</a>
+                </li>
+                <li class="blog__card">
+                    <h2 class="card__title">Database to find the gifts for your girlfriend</h2>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                    <a href="#" class="blog__card-link">Read More</a>
+                </li>
+                <li class="blog__card">
+                    <h2 class="card__title">How Artificial Intelligence read your mind to find the best gift</h2>
+                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                    <a href="#" class="blog__card-link">Read More</a>
                 </li>
             </ul>
         </section>

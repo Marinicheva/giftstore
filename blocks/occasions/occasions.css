@@ -1,0 +1,19 @@
+.occasions {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 96px;
+	padding-bottom: 137px;
+}
+
+/* .occasions__title {
+	margin-bottom: 23px;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.occasions__subtitle {
+	margin-bottom: 64px;
+	font-size: 18px;
+	line-height: 1.36;
+} */

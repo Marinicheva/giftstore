@@ -1,0 +1,17 @@
+.occasions__item {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	padding-left: 24px;
+	padding-bottom: 24px;
+	width: 270px;
+	height: 436px;
+	background-color: var(--card-bg-grey);
+	transition: .6s;
+}
+
+.occasions__item:hover {
+	background-color: var(--basic-white);
+	box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}

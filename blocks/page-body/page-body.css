@@ -1,0 +1,49 @@
+:root {
+	--basic-black: #000000;
+	--logo-black: #231F20;
+	--accent-orange: #F7941E;
+	--section-bg-grey: #F1F1F2;
+	--card-bg-grey: #FAFAFA;
+	--basic-white: #FFFFFF;
+
+}
+
+@font-face {
+	font-family: 'Gilroy'; 
+    font-weight: 400;
+	src: local('Gilroy'),
+		url('../../assets/fonts/Gilroy-Regular.ttf'); 
+}
+
+@font-face {
+	font-family: 'Gilroy'; 
+    font-weight: 600;
+	src: local('Gilroy'),
+		url('../../assets/fonts/Gilroy-SemiBold.ttf'); 
+}
+
+@font-face {
+	font-family: 'Gilroy'; 
+    font-weight: 700;
+	src: local('Gilroy'),
+		url('../../assets/fonts/Gilroy-Bold.ttf'); 
+}
+
+@font-face {
+	font-family: 'HomemadeApple';
+	font-weight: 400;
+	src: local('HomemadeApple'),
+		url('../../assets/fonts/HomemadeApple-Regular.ttf');
+}
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.page-body {
+	margin: 0 auto;
+	max-width: 1440px;
+	font-family: "Gilroy", "Arial", sans-serif;
+}

@@ -1,0 +1,11 @@
+.main-card {
+	position: relative;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 63px;
+	padding-left: 478px;
+	min-width: 100%;
+	min-height: 370px;
+	background-color: var(--basic-black);
+}
