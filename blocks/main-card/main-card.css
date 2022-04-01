@@ -3,10 +3,10 @@
 	/* position: relative; */
 	display: flex;
 	gap: 78px;
+	padding: 0;
 	/* flex-direction: column;
 	justify-content: space-between;
 	align-items: baseline; */
-
 	/* padding-left: 478px; */
 	min-height: 370px;
 	background-color: var(--basic-black);

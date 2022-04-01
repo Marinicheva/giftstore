@@ -1,0 +1,12 @@
+.blog__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 48px;
+    transition: .5s;
+
+}
+
+.blog__card:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.05);
+}
