@@ -11,7 +11,7 @@
 <body>
     <header class="header">
         <a href="#" class="logo logo_place_header">logo</a>
-        <nav class="menu menu_place_header">
+        <nav>
             <ul class="menu">
                 <li class="menu__item"><a href="#" class="link menu__link">Home</a></li>
                 <li class="menu__item"><a href="#" class="link menu__link">About Us</a></li>
@@ -65,14 +65,14 @@
             </ul>
         </section>
         <section class="start">
-            <div class="start__column">
+            <div class="start__column start__column_content_text">
                 <h3 class="start__title">Ready to get started?</h3>
                 <p class="start__text">Sign up or contact us</p>
             </div>
             
-            <div class="start__column">
-                <button class="button button_color_dark">Find gift now</button>
-                <button class="button button_bg_transparent-dark">how it works</button>               
+            <div class="start__column start__column_content_buttons">
+                <button class="button button_size_m button_color_dark">Find gift now</button>
+                <button class="button button_size_m button_bg_transparent-dark">how it works</button>               
             </div>
         </section>
 
@@ -92,22 +92,75 @@
                     </div>   
                 </li>
                 <li class="blog__card">
-                    <h2 class="card__title">Database to find the gifts for your girlfriend</h2>
-                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-                    <a href="#" class="blog__card-link">Read More</a>
+                    <h2 class="blog__card-title">Database to find the gifts for your girlfriend</h2>
+                    <p class="blog__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                    <a href="#" class="link blog__card-link">Read More</a>
                 </li>
                 <li class="blog__card">
-                    <h2 class="card__title">How Artificial Intelligence read your mind to find the best gift</h2>
-                    <p class="card__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
-                    <a href="#" class="blog__card-link">Read More</a>
+                    <h2 class="blog__card-title">How Artificial Intelligence read your mind to find the best gift</h2>
+                    <p class="blog__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore...</p>
+                    <a href="#" class="link blog__card-link">Read More</a>
                 </li>
             </ul>
         </section>
-
-
-
     </main>
 
-    
+    <footer class="footer">
+        <div class="footer__row footer__row_content_menu">
+            <a href="#" class="logo logo_place_footer">logo</a>
+            <nav>
+                <ul class="menu menu_place_footer">
+                    <li class="menu__item"><a href="#" class="link menu__link menu__link_place_footer">Home</a></li>
+                    <li class="menu__item"><a href="#" class="link menu__link menu__link_place_footer">About</a></li>
+                    <li class="menu__item"><a href="#" class="link menu__link menu__link_place_footer">Services</a></li>
+                    <li class="menu__item"><a href="#" class="link menu__link menu__link_place_footer">Blogs</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__row footer__row_content_socials">
+            <ul class="footer__socials">
+                <li class="footer__social">
+                    <a href="https://ru-ru.facebook.com/" class="footer__social-link" target="blank">
+                        <svg class="footer__social-icon">
+                            <use xlink:href="./assets/icons/social-icons-sprite.svg#fb-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="https://twitter.com/" class="footer__social-link" target="blank">
+                        <svg class="footer__social-icon">
+                            <use xlink:href="./assets/icons/social-icons-sprite.svg#twitter-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="https://instagram.com/" class="footer__social-link" target="blank">
+                        <svg class="footer__social-icon">
+                            <use xlink:href="./assets/icons/social-icons-sprite.svg#instagram-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="https://www.youtube.com/" class="footer__social-link" target="blank">
+                        <svg class="footer__social-icon">
+                            <use xlink:href="./assets/icons/social-icons-sprite.svg#youtube-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="footer__social">
+                    <a href="https://www.pinterest.ru/" class="footer__social-link" target="blank">
+                        <svg class="footer__social-icon">
+                            <use xlink:href="./assets/icons/social-icons-sprite.svg#pinterest-icon"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="footer__row footer__row_content_copyright">
+            <p class="footer__copyright-text">&#169;  2010-2020</p>
+            <a href="#" class="link footer__privacy-terms">Privacy — Terms</a>
+        </div>
+    </footer>   
 </body>
 </html>

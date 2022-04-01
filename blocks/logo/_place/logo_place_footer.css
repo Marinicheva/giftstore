@@ -1,0 +1,12 @@
+.logo_place_footer {
+    position: absolute;
+    bottom: 45px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: var(--accent-orange);
+	
+}
+
+.logo_place_footer:hover {
+	color: var(--logo-black);
+}

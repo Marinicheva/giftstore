@@ -2,12 +2,10 @@
 	grid-column: 1/-1;;
 	/* position: relative; */
 	display: flex;
+	flex-direction: row;
+	justify-content: start;
 	gap: 78px;
 	padding: 0;
-	/* flex-direction: column;
-	justify-content: space-between;
-	align-items: baseline; */
-	/* padding-left: 478px; */
 	min-height: 370px;
 	background-color: var(--basic-black);
 }

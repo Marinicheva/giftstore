@@ -2,9 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: flex-start;
     padding: 48px;
     transition: .5s;
-
 }
 
 .blog__card:hover {

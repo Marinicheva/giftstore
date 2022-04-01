@@ -2,7 +2,9 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-self: start;
     padding-top: 63px;
 	padding-bottom: 49px;
     max-width: 45%;
+    height: 100%;
 }

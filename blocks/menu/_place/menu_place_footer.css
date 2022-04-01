@@ -1,0 +1,10 @@
+.menu_place_footer {
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+}
+
+.menu_place_footer > .menu__item:nth-child(2) {
+    padding-right: 200px;
+
+}
