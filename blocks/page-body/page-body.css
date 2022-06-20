@@ -46,4 +46,5 @@
 	margin: 0 auto;
 	max-width: 1440px;
 	font-family: "Gilroy", "Arial", sans-serif;
+	scroll-behavior: smooth;
 }
